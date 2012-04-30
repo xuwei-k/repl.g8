@@ -1,6 +1,6 @@
 import com.github.xuwei_k.repl.Plugin._
 
-seq(replSettings: _*)
+replSettings
 
 name := "$projectName$"
 
