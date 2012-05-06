@@ -1,8 +1,10 @@
-import com.github.xuwei_k.repl.Plugin._
-
 replSettings
 
 name := "$projectName$"
 
 scalaVersion := "$scalaVersion$"
 
+scalacOptions := Seq("-deprecation", "-unchecked")
+
+libraryDependencies ++= Seq(
+)
